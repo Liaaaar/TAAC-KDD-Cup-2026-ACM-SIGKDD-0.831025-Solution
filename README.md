@@ -1,6 +1,6 @@
 # TAAC-KDD Cup 2026 (ACM SIGKDD) - 0.831025
 
-本方案基于 [流水](https://github.com/nhdzTVlxb) 开源的 [v9](https://github.com/nhdzTVlxb/TAAC-2026-Tencent-KDD) 进行改进，最终分数为 `0.831025`。整体上保留 v9 的 HyFormer 多序列建模框架，主要优化时间编码、NS token 构造和模型容量。前三项改动单独使用均带来约 `0.004+` 的收益，是主要增益来源。
+本方案基于 [流水](https://github.com/nhdzTVlxb) 开源的 [v9](https://github.com/nhdzTVlxb/TAAC-2026-Tencent-KDD) 进行改进，最终分数为 `0.831025`。整体上保留 v9 的模型框架，主要优化时间编码、NS token 构造和模型容量。这三项改动单独使用均带来约 `0.003+-0.004+` 的收益，是主要增益来源。
 
 ## 1. 时间编码替换
 
