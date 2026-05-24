@@ -92,7 +92,6 @@ token_emb = token_emb + cross_day_embedding(cross_day_bucket)
 | ----------------- | ------ | ------- |
 | user NS tokens    | `3`  | `11`  |
 | item NS tokens    | `4`  | `4`   |
-| item dense tokens | `1`  | `0`   |
 | num queries       | `2`  | `4`   |
 | d_model           | `64` | `128` |
 
