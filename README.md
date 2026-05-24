@@ -141,4 +141,4 @@ ns_tokens = torch.cat(tokens, dim=1)
 
 ## 总结
 
-相对 [v9](https://github.com/nhdzTVlxb/TAAC-2026-Tencent-KDD)，`best` 的主要收益来自三部分：时间编码替换、field-aware tokenizer 修正，以及 NS token/model dim 的容量扩展。前三项单独使用均有约 `0.004+` 的收益；semi-local mask 提供额外小幅增益。最终分数为 `0.831025`。
+相对 [v9](https://github.com/nhdzTVlxb/TAAC-2026-Tencent-KDD)，`best` 的主要收益来自三部分：时间编码替换、field-aware tokenizer 修正，以及 NS token/model dim 的容量扩展。前三项单独使用均有约 `0.004` 左右的收益；semi-local mask 提供额外小幅增益。最终分数为 `0.831025`。
